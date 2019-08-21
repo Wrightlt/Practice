@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>脚本语言分段解析</title>
+</head>
+<body>
+<h2>web的朋友：</h2>
+<p>php</p>
+<!--<p>编辑用户换段落，要提一行-->
+<p>js</p>
+<p>css</p>
+html<br/>
+<!--<br/>标记只会换行，但不会提空行-->
+
+<br/>
+<?php
+scho "这些都是前端开发的必须项~"
+?>
+<br/>
+
+<script language="php">
+echo "大家好，我用脚本标记方式运行PHP"
+</script>
+<!--注意1：php 7 开始不支持这种在脚本标记里运行php的语法-->
+<!--注意2：本脚本里和php相关的内容只能在更改文件名为.php后并通过服务器解析后可以显示，笔者采用本地安装的xampp虚拟服务器进行解析-->
+</body>
+</html>
